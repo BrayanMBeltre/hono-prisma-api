@@ -9,6 +9,7 @@
     "resolveJsonModule": true,
     "outDir": "./dist",
     "removeComments": true,
+    "noUncheckedIndexedAccess": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

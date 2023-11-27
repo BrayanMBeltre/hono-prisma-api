@@ -13,7 +13,6 @@ const app = new OpenAPIHono();
 app.onError(handleHonoErrors);
 
 app.route("/", usersApp);
-app.route("/", boooksApp);
 
 app.openAPIRegistry.registerComponent("securitySchemes", "Authorization", {
   type: "apiKey",
