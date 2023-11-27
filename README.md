@@ -24,3 +24,8 @@ bun dev
 bun run build
 bun run start
 ```
+
+## How to infer types
+```bash
+npx openapi-typescript {url}/api/openapi.json --output ./typesExample.ts
+```

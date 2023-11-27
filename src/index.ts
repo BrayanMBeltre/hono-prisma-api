@@ -7,7 +7,6 @@ import { swaggerUI } from "@hono/swagger-ui";
 
 import { handleHonoErrors } from "./utils/hono";
 import { usersApp } from "./routes/users";
-import { boooksApp } from "./routes/books";
 
 const app = new OpenAPIHono();
 
