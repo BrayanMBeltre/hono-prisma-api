@@ -1,6 +1,6 @@
-# Minio service
+# HONO and Prisma api
 
-This is a Node.js project using Hono to manage my minio .
+This is a Bunjs project using Hono to manage users with prisma.
 
 ## Installation
 
@@ -15,5 +15,12 @@ Then install dependencies and check that it works
 
 ```bash
 bun install
-bun run dev
+bun dev
+```
+
+## Build
+
+```bash
+bun run build
+bun run start
 ```
